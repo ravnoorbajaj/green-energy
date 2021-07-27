@@ -1,0 +1,86 @@
+/* 
+Bright Navy Blue - #2471c9 
+Silver             #7a7f91
+blue bell          #aa96d9
+Mountain Purple    #8c72a8
+persian blue       #1632cc
+*/
+
+body {
+    max-width: 60rem;
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    line-height: 1.4;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+    background-color:  #2471c9 ;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+#active {
+    background-color: #7A7F91;
+    color: white;
+}
+
+#btn-active {
+    background-color: #7A7F91;
+    color: white;
+}
+button{
+    background-color: #2471c9;
+    color: white;
+}
+
+.masthead {
+    padding: 7rem;
+    background-color: #212121;
+    background-image: url(../img/green1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+footer li i {
+    color: white;
+}
+footer p {
+    text-align: center;
+}
+
+img {
+    max-width: 10%;
+}
+/***************************************************
+			 Custom media query
+***************************************************/
+
+@media only screen and (min-width: 480px) {
+
+    nav ul li {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    body {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
