@@ -33,17 +33,17 @@
 <body>
     <nav>
         <ul>
-            <li>
-                <a href="index.html">Home</a>
+            <li id="active">
+                Home
             </li>
             <li>
-                <a href="#">About</a>
+                About
             </li>
             <li>
-                <a href="#">Contact</a>
+                Contact
             </li>
             <li>
-                <a href="#">Blog</a>
+                Blog
             </li>
         </ul>
     </nav>
@@ -52,49 +52,53 @@
     </section>
 
     <br>
-    
-    <section>
-        <button class="menu btn1" id="btn-active">
-            <div class="btnImg">
-                
-                <img src="img/green1.jpg">
+
+    <main class="main-content">
+        <div class="controls">
+
+            <button onclick="OnClick()" class="menu btn1" id="btn-active"></button>
+
+
+            <img src="img/green1.jpg">
+
+            </button>
+
+            <button onclick="OnClick()" class="menu btn2" id="btn-active"></button>
+
+
+            <img src="img/green2.jpg">
+
+            </button>
+
+
+            <button onclick="OnClick()" class="menu btn3" id="btn-active"></button>
+
+
+            <img src="img/green3.jpg">
+
+            </button>
+            </section>
+
+            <div id="dynamic-content">
             </div>
-        </button>
-
-        <button class="menu btn2">
-            <div class="btnImg">
-                
-                <img src="img/green2.jpg">
-            </div>
-        </button>
-
-
-        <button class="menu btn3">
-            <div class="btnImg">
-                
-                <img src="img/green3.jpg">
-            </div>
-        </button>
-    </section>
-
-    <div id="dynamic-content">
-    </div>
+        </div>
+    </main>
 
     <footer>
         <nav>
             <ul>
                 <li>
-                    <a><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li>
-                   <a> <i class="fab fa-instagram"></i> </a>
+                    <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> </a>
                 </li>
                 <li>
-                  <a> <i class="fab fa-twitter"></i> </a>
+                    <a href="https://www.twitter.com"> <i class="fab fa-twitter"></i> </a>
                 </li>
             </ul>
         </nav>
-        <p>All rights reserved</p>
+        <p>&copy; All rights reserved</p>
 
     </footer>
 
